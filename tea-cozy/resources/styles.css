@@ -1,0 +1,151 @@
+body {
+  background-color: black;
+  opacity: 0.9;
+  margin: 0 auto;
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  width: 100%;
+}
+
+/*Header and nav*/
+
+.header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  width: 100%;
+}
+
+.logo {
+  padding-left: 10px;
+  flex-grow: 1;
+  }
+
+.logo img {
+  height: 50px;
+}
+
+nav span {
+  margin-right: 10px;
+}
+
+a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+/*Our Mission*/
+
+.imagemission {
+  height: 700px;
+  width: 1200px;
+  background-color: WhiteSmoke;
+  display: flex;
+
+  text-align: center;
+  background-image: url('../images/img-mission-background.jpg');
+  margin: 0 auto;
+}
+
+.textmission {
+  height: 110px;
+  width: 1200px;
+  background-color: black;
+  margin-top: 325px;
+}
+
+
+.text_h2 {
+  margin: 15px;
+  text-align: center;
+  }
+
+.text_h4 {
+  margin: 15px;
+}
+
+/*Tea of the month*/
+.container {
+  margin: 0 auto;
+}
+
+
+.teaofmonth {
+  margin: 0 auto;
+  width: 1200px;
+  text-align: center;
+  height: 720px;
+  padding-top: 60px;
+}
+
+.teaimagestop {
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.teaimagesbottom {
+  display: flex;
+  justify-content: center;
+}
+
+.images img {
+  height: 200px;
+  width: 300px;
+  padding-right: 30px
+}
+
+.centredtext {
+  height: 200px;
+  width: 300px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: -140px;
+}
+
+
+/*Locations*/
+.locationsimage {
+  height: 500px;
+  width: 1200px;
+  background-image: url('../images/img-locations-background.jpg');
+  background-position: 0 -70px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.center {
+    text-align: center;
+    padding-top: 40px;
+  }
+
+.locations {
+  display: inline-block;
+  background-color: black;
+  padding-top: 15px;
+  opacity: 1;
+  width: 300px;
+  height: 240px;
+  text-align: center;
+  margin: 0 20px;
+}
+
+/*the tea cozy*/
+
+.teacozy {
+  height: 200px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.text_h5 {
+  text-align: center;
+}
+
+.footer {
+  margin: 0 20px;
+}
